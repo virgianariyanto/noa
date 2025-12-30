@@ -2,7 +2,7 @@ import styles from "@/components/css/Style.module.css";
 
 const Cookies = () => {
     return (
-        <div className="w-full text-center">
+        <div className="w-full h-screen flex flex-col justify-center items-center text-center mt-96 md:mt-0">
             <h1 className={`my-10 text-2xl text-[#ff6abc] ${styles.latobold}`}>Semesta Kami</h1>
             <div className="w-full flex flex-wrap justify-center items-center gap-8 pb-16">
                 <div className="group max-w-sm rounded-2xl overflow-hidden shadow-lg cursor-pointer">
@@ -16,7 +16,7 @@ const Cookies = () => {
                     </div>
 
                     <div className="p-4">
-                        <h3 className="font-semibold text-lg text-[#ff6abc]">Food Highlight</h3>
+                        <h3 className="font-semibold text-lg dark:text-white text-[#ff6abc]">Food Highlight</h3>
                         <p className="text-sm text-gray-500">
                         Fresh & delicious
                         </p>
@@ -33,7 +33,7 @@ const Cookies = () => {
                     </div>
 
                     <div className="p-4">
-                        <h3 className="font-semibold text-lg text-[#ff6abc]">Food Highlight</h3>
+                        <h3 className="font-semibold text-lg dark:text-white text-[#ff6abc]">Food Highlight</h3>
                         <p className="text-sm text-gray-500">
                         Fresh & delicious
                         </p>
@@ -50,7 +50,7 @@ const Cookies = () => {
                     </div>
 
                     <div className="p-4">
-                        <h3 className="font-semibold text-lg text-[#ff6abc]">Food Highlight</h3>
+                        <h3 className="font-semibold text-lg dark:text-white text-[#ff6abc]">Food Highlight</h3>
                         <p className="text-sm text-gray-500">
                         Fresh & delicious
                         </p>
@@ -67,7 +67,7 @@ const Cookies = () => {
                     </div>
 
                     <div className="p-4">
-                        <h3 className="font-semibold text-lg text-[#ff6abc]">Food Highlight</h3>
+                        <h3 className="font-semibold text-lg dark:text-white text-[#ff6abc]">Food Highlight</h3>
                         <p className="text-sm text-gray-500">
                         Fresh & delicious
                         </p>

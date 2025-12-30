@@ -65,7 +65,7 @@ function Header() {
       {/* ===== Header ===== */}
       <header
         className={`fixed top-0 left-0 w-full z-30 transition-all duration-300
-        ${isScrolled ? "bg-[#ff6abc]/60 backdrop-blur-sm" : "bg-transparent"}`}
+        ${isScrolled ? "bg-black/60 backdrop-blur-sm" : "bg-transparent"}`}
       >
         <div className="w-5/6 mx-auto flex justify-between items-center py-4">
           {/* Mobile Menu */}
@@ -79,7 +79,7 @@ function Header() {
           <div className="hidden md:flex">
             <span
               className={`text-5xl ${styles.latoblack}
-              ${isScrolled ? "text-black" : "text-[#ff6abc]"}`}
+              ${isScrolled ? "text-[#ff6abc]" : "text-[#ff6abc]"}`}
             >
               noa
             </span>
@@ -88,7 +88,7 @@ function Header() {
           {/* Desktop Nav */}
           <nav>
             <ul className={`hidden md:flex items-center ${styles.latobold}`}>
-              <li className={`mr-4 tracking-widest cursor-pointer ${isScrolled ? "text-black" : "text-[#ff6abc]"}`}>
+              <li className={`mr-4 tracking-widest cursor-pointer ${isScrolled ? "text-[#ff6abc]" : "text-[#ff6abc]"}`}>
                 Home
               </li>
               <li className="mr-4 tracking-widest text-white cursor-pointer">
@@ -119,7 +119,7 @@ function Header() {
           {/* Mobile Logo */}
           <span
             className={`text-4xl md:hidden ${styles.latoblack}
-            ${isScrolled ? "text-black" : "text-[#ff6abc]"}`}
+            ${isScrolled ? "text-[#ff6abc]" : "text-[#ff6abc]"}`}
           >
             noa
           </span>
