@@ -10,14 +10,12 @@ export default function Home() {
     return (
         <>
             <Header />
-            <body className="bg-white dark:bg-black">
-                <Hero />
-                <Cookies />
-                <Story />   
-                <Contact /> 
-                <Available />
-                <Footer />
-            </body>
+            <Hero />
+            <Cookies />
+            <Story />   
+            <Contact /> 
+            <Available />
+            <Footer />
         </>
     )
 }

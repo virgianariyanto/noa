@@ -9,7 +9,7 @@ const Hero = () => {
                 <div>
                     <p className={`text-xl md:text-2xl py-0 tracking-wider ${styles.latothin}`}>Dari dapur sederhana, tercipta cookies dengan <span className="text-[#ff6abc] font-bold">karakter</span> yang kami percaya</p>
                     <h1 className={`text-5xl md:text-7xl ${styles.latoblack}`}>Selamat Datang di <span className="text-[#ff6abc]">noa.</span></h1>
-                    <button className="bg-[#ff6abc] text-white px-6 py-3 mt-4 rounded-md hover:bg-black transition duration-300 cursor-pointer">Order Now</button>
+                    <button className="bg-[#ff6abc] text-white px-6 py-3 mt-4 rounded-md hover:bg-pink-600 transition duration-300 cursor-pointer">Order Now</button>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import styles from "@/components/css/Style.module.css";
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white py-6 h-full">
+        <footer className=" py-6 h-full">
             <div className="flex flex-col text-center items-center justify-center">
                 <div className="flex justify-between w-5/6 items-center mb-2">
                     <h1 className={`text-4xl text-[#ff6abc] ${styles.latoblack}`}>noa.</h1>
