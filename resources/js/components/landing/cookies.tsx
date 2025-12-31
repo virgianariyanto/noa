@@ -2,9 +2,9 @@ import styles from "@/components/css/Style.module.css";
 
 const Cookies = () => {
     return (
-        <div className="w-full h-screen flex flex-col justify-center items-center text-center mt-96 md:mt-0">
-            <h1 className={`my-10 text-2xl text-[#ff6abc] ${styles.latobold}`}>Semesta Kami</h1>
-            <div className="w-full flex flex-wrap justify-center items-center gap-8 pb-16">
+        <div className="w-full h-screen flex flex-col justify-center items-center text-center mt-96 md:mt-20 xl:mt-10">
+            <h1 className={`my-10 text-2xl text-[#ff6abc] ${styles.latobold}`}>Our Universe</h1>
+            <div className="w-full flex flex-wrap justify-center items-center gap-8 pb-16 px-2">
                 <div className="group max-w-sm rounded-2xl overflow-hidden shadow-lg cursor-pointer">
                     <div className="relative">
                         <img

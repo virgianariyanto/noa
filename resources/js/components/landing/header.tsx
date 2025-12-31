@@ -92,10 +92,10 @@ function Header() {
                 Home
               </li>
               <li className="mr-4 tracking-widest text-white cursor-pointer">
-                Menu
+                Universe
               </li>
               <li className="mr-4 tracking-widest text-white cursor-pointer">
-                Gallery
+                Story
               </li>
               <li className="tracking-widest text-white cursor-pointer">
                 Contact
